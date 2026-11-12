@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# Temporary Media & Uploads
+temp_media/
+*.tmp
+*.wav
+*.mp3
+*.jpg
+*.png
+*.db
+*.sqlite3
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
